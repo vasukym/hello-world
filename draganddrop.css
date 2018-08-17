@@ -1,0 +1,12 @@
+#div1,#div2{
+	border:2px solid black;
+	height:190px;
+	width:50%;
+	
+}
+p{
+		cursor: pointer;
+}
+[draggable] {
+user-select: none;
+}

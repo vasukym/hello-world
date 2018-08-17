@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>drag and drop</title>
+	<link rel = "stylesheet" href = "draganddrop.css">
+</head>
+<body id = "body" ondrop = "drop(event)" ondragover = "dragover(event)">
+		<h1> drag and drop</h1>
+		<div id = "div1" ondrop = "drop(event)" ondragover = "dragover(event)">
+			<p id = "dragpara1" ondragstart = "dragset(event)" ondrop = "drop(event)" ondragover = "dragover(event)" draggable = "true">hi i want to move to next division 1st line</p>
+			<p id = "dragpara2" ondragstart = "dragset(event)" ondrop = "drop(event)" ondragover = "dragover(event)" draggable = "true">hi i want to move to next division 2nd line</p>
+			<p id = "dragpara3" ondragstart = "dragset(event)" ondrop = "drop(event)" ondragover = "dragover(event)" draggable = "true">hi i want to move to next division 3st line</p>
+			<p id = "dragpara4" ondragstart = "dragset(event)" ondrop = "drop(event)" ondragover = "dragover(event)" draggable = "true">hi i want to move to next division 4nd line</p>
+		</div>
+		<div id  = "div2"  ondrop = "drop(event)" ondragover = "dragover(event)"></div>
+		<script src = "draganddrop.js"></script>
+</body>
+</html>
